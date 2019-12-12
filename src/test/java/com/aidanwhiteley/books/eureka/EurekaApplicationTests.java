@@ -1,4 +1,4 @@
-package com.aidan.books.eureka;
+package com.aidanwhiteley.books.eureka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

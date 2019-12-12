@@ -1,9 +1,13 @@
+spring:
+  application:
+    name: BooksServiceRegistry
+
 server:
   port: 8761
 
 eureka:
   server:
-    eviction-interval-timer-in-ms: 20000
+    eviction-interval-timer-in-ms: 60000
   instance:
     hostname: localhost
   client:
