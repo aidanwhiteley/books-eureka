@@ -10,4 +10,5 @@
     <logger name="com.netflix.config.sources.URLConfigurationSource" level="ERROR" />
     <!-- Not worried about using the default load balancer cache -->
     <logger name="org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration" level="ERROR" />
+
 </configuration>

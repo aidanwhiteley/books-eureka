@@ -1,6 +1,10 @@
 spring:
   application:
     name: BooksServiceRegistry
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
 
   profiles:
     active: default
@@ -15,7 +19,7 @@ server:
 
 eureka:
   server:
-    eviction-interval-timer-in-ms: 60000
+    eviction-interval-timer-in-ms: 5000
   instance:
     hostname: localhost
   client:
