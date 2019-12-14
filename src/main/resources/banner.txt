@@ -6,5 +6,5 @@
 /_____/\____/\____/_/|_/____/   /____/\___/_/    |___/_/\___/\___/  /_/ |_|\___/\__, /_/____/\__/_/   \__, /
                                                                                /____/                /____/
 
- Aidan Whiteley - https://github.com/aidanwhiteley/eureka
+ Aidan Whiteley - https://github.com/aidanwhiteley/books-eureka
  

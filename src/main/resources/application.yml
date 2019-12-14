@@ -2,6 +2,14 @@ spring:
   application:
     name: BooksServiceRegistry
 
+  profiles:
+    active: default
+
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false    # RibbonLoadBalancerClient deprecated. This setting uses BlockingLoadBalancerClient
+
 server:
   port: 8761
 
