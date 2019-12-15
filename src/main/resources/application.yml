@@ -17,12 +17,13 @@ eureka:
   server:
     eviction-interval-timer-in-ms: 5000
   instance:
-    hostname: localhost
+    hostname: ${SERVICE_REGISTRY}
   client:
     registerWithEureka: true
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://$
+      {eureka.instance.hostname}:${server.port}/eureka/
 
 management:
   endpoints:
