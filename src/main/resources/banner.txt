@@ -6,5 +6,6 @@
 /_____/\____/\____/_/|_/____/   /____/\___/_/    |___/_/\___/\___/  /_/ |_|\___/\__, /_/____/\__/_/   \__, /
                                                                                /____/                /____/
 
+ Running on Spring Boot ${spring-boot.formatted-version} - because of a legacy Spring Cloud Hsyterix dependency
  Aidan Whiteley - https://github.com/aidanwhiteley/books-eureka
  
