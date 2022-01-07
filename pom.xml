@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.aidan.books</groupId>
 	<artifactId>eureka</artifactId>
-	<version>0.0.6-RELEASE</version>
+	<version>0.0.7-RELEASE</version>
 	<name>eureka</name>
 	<description>Service Registry for the books project</description>
 
@@ -81,7 +81,7 @@
 			<plugin>
 				<groupId>com.google.cloud.tools</groupId>
 				<artifactId>jib-maven-plugin</artifactId>
-				<version>3.1.2</version>
+				<version>3.1.4</version>
 				<configuration>
 					<from>
 						<image>gcr.io/distroless/java:11</image>
@@ -89,7 +89,7 @@
 					<to>
 						<image>aidanwhiteley/books-service-registry</image>
 						<tags>
-							<tag>0.0.6-RELEASE</tag>
+							<tag>0.0.7-RELEASE</tag>
 						</tags>
 					</to>
 					<container>
